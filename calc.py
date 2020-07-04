@@ -1,3 +1,4 @@
+#desc : 계산기
 
 def Dsum(x, y):
     hap = x + y
