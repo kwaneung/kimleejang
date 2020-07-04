@@ -7,6 +7,10 @@ def Dsub(x, y):
     hap = x - y
     print(str(x)+" - "+str(y)+" = "+str(round(hap, 2)))
 
+def Ddiv(x, y):
+    hap = x / y
+    print(str(x)+" / "+str(y)+" = "+str(round(hap, 2)))
+
 
 
 if __name__ == "__main__":
@@ -24,5 +28,6 @@ if __name__ == "__main__":
         print("곱셈 연산을 실행합니다.")
     elif p == '/':
         print("나눗셈 연산을 실행합니다.")
+        Ddiv(a, b)
     else:
         print("정상적인 값을 입력하시오")
