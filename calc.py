@@ -7,6 +7,8 @@ def Dsub(x, y):
     hap = x - y
     print(str(x)+" - "+str(y)+" = "+str(round(hap, 2)))
 
+print("계산기 시작!!")
+
 
 if __name__ == "__main__":
     print("계산기 시작")
