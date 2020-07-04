@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-#desc : 계산기
-
-=======
-#테스트
->>>>>>> kwaneung
+#테스트트트트
 def Dsum(x, y):
     hap = x + y
     print(str(x)+" + "+str(y)+" = "+str(round(hap, 2)))
