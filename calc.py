@@ -16,6 +16,10 @@ def Ddiv(x, y):
     hap = x / y
     print(str(x)+" / "+str(y)+" = "+str(round(hap, 2)))
 
+def Dmul(x,y):
+    hap = x * y
+    print(str(x) + "*" + str(y) + " = " + str(round(hap,2)))
+
 
 
 if __name__ == "__main__":
@@ -31,6 +35,7 @@ if __name__ == "__main__":
         Dsub(a, b)
     elif p == '*':
         print("곱셈 연산을 실행합니다.")
+        Dmul(a,b)
     elif p == '/':
         print("나눗셈 연산을 실행합니다.")
         Ddiv(a, b)
